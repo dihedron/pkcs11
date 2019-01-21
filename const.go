@@ -596,6 +596,10 @@ const (
 	CKM_RSA_PKCS_TPM_1_1                 = 0x00004001
 	CKM_RSA_PKCS_OAEP_TPM_1_1            = 0x00004002
 	CKM_VENDOR_DEFINED                   = 0x80000000
+	CKH_MONOTONIC_COUNTER                = 0x00000001
+	CKH_CLOCK                            = 0x00000002
+	CKH_USER_INTERFACE                   = 0x00000003
+	CKH_VENDOR_DEFINED                   = 0x80000000
 	CKF_HW                               = 0x00000001
 	CKF_ENCRYPT                          = 0x00000100
 	CKF_DECRYPT                          = 0x00000200
