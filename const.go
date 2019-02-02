@@ -725,3 +725,17 @@ const (
 	CKF_EXCLUDE_PIN                      = 0x00000010
 	CKF_USER_FRIENDLY_OTP                = 0x00000020
 )
+
+const (
+	// CK_CERTIFICATE_CATEGORY_UNSPECIFIED means that no category is specified.
+	CK_CERTIFICATE_CATEGORY_UNSPECIFIED = 0x00000000
+	// CK_CERTIFICATE_CATEGORY_TOKEN_USER means that the certificate belongs to
+	// the owner of the token.
+	CK_CERTIFICATE_CATEGORY_TOKEN_USER = 0x00000001
+	// CK_CERTIFICATE_CATEGORY_AUTHORITY means that the certificate belongs to
+	// a certificate authority.
+	CK_CERTIFICATE_CATEGORY_AUTHORITY = 0x00000002
+	// CK_CERTIFICATE_CATEGORY_OTHER_ENTITY means that the certificate belongs
+	// to an end entity (i.e.: not a CA).
+	CK_CERTIFICATE_CATEGORY_OTHER_ENTITY = 0x00000003
+)
