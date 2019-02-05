@@ -739,3 +739,14 @@ const (
 	// to an end entity (i.e.: not a CA).
 	CK_CERTIFICATE_CATEGORY_OTHER_ENTITY = 0x00000003
 )
+
+const (
+	// CK_SECURITY_DOMAIN_UNSPECIFIED means that no domain is specified.
+	CK_SECURITY_DOMAIN_UNSPECIFIED = 0x00000000
+	// CK_SECURITY_DOMAIN_MANUFACTURER refers to a manufacturer protection domain.
+	CK_SECURITY_DOMAIN_MANUFACTURER = 0x00000001
+	// CK_SECURITY_DOMAIN_OPERATOR refers to a operator protection domain.
+	CK_SECURITY_DOMAIN_OPERATOR = 0x00000002
+	// CK_SECURITY_DOMAIN_THIRD_PARTY refers to a third party protection domain.
+	CK_SECURITY_DOMAIN_THIRD_PARTY = 0x00000003
+)
